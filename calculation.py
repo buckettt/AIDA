@@ -88,7 +88,7 @@ def main():
     weather3.int_temp = 17
     weather3.wind_speed = 3
     
-    weather2.load_epw(r"J:\J9999\O.Beckett\Tools\py\AIDA\\GBR_London.epw")
+    weather2.load_epw(r".\GBR_London.epw")
     weather2.type = 2
     #test_case.solve(weather1, PERCERROR, print_message=False)
     #test_case.solve(weather2, PERCERROR, print_message=False)
