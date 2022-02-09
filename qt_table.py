@@ -78,7 +78,7 @@ def main(args):
     my_profile.values[4,4]=0.5
     
     qt_app = QApplication(args)
-    css = r"J:\J9999\O.Beckett\Tools\py\AIDA\qtdarkstyle.css"
+    css = r".\qtdarkstyle.css"
     with open(css, "r") as fh:
         qt_app.setStyleSheet(fh.read())
    
